@@ -10,16 +10,25 @@
 <script src="form.js"></script>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
-
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
 
-<body>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCBaj7-cE1ZdjLMBUJjvqKHD8Oa6x53S9E",
+    authDomain: "racecar-ee298.firebaseapp.com",
+    databaseURL: "https://racecar-ee298.firebaseio.com",
+    projectId: "racecar-ee298",
+    storageBucket: "racecar-ee298.appspot.com",
+    messagingSenderId: "617822924246",
+    appId: "1:617822924246:web:1fe0a4434db0b737134877"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script><body>
   <script src="sketch.js">  </script>
   
   </body>
